@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "printf thinking > e:/Workspace/jarvis/barehands/state/state" }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "printf idle > e:/Workspace/jarvis/barehands/state/state" }
+        ]
+      }
+    ]
+  }
+}
